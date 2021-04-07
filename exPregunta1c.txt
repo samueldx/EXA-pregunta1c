@@ -1,0 +1,25 @@
+#PREGUNTA 1 INCISO C
+
+@author: A-SAMUEL
+"""
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import preprocessing
+
+datos = pd.read_csv("C:\\Users\\A-SAMUEL\\Desktop\\Dummy Data HSS.csv")
+
+
+datos.TV.plot.hist()
+plt.show()
+
+datos.Radio.plot.hist()
+plt.show()
+
+datos.MedioSocial.plot.hist()
+plt.show()
+
+datos.Ventas.plot.hist()
+plt.show()
